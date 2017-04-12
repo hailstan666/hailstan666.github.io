@@ -1,0 +1,81 @@
+
+               body{
+                    color: #665544;
+                    background-color: #d4d0c6;
+                    font-family: Georgia;
+                    text-align: center;
+               }
+     	
+     		header {
+     			height: 350px;
+                    
+                    background-image: url('http://wikitravel.org/upload/shared//thumb/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg/600px-Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg');
+                    background-size: cover;
+
+     		}
+               h1{text-align: center;
+                    font-weight: bold;
+                    font-size: 50px}
+               h2{text-align: center;
+                    font-weight: bold;
+                    font-size: 30px;}
+               nav{
+                    float: left;
+                    max-width: 200px;
+
+               }
+               nav ul{
+                    list-style-type:none;
+                    font-size: 40px;
+
+               }
+               nav ul a{
+                    text-decoration: none; 
+               }
+               nav ul li{
+                    margin: 10px;
+                    padding: 10px;
+               }
+
+               article{
+                    width: 750px;
+                    margin: 0px auto;
+                    border: 2px;
+               }
+               .entry {
+                    border: 2px;
+                    width: 310px;
+                    float: left;
+                    margin: 20px;
+                    height: 200px;
+                    padding: 10px;
+               }
+
+               
+               figure{
+                    display: block;
+                    width: 280px;
+                    height: 200px;
+                    background-color: #e7e3d8;
+                    margin: 0;
+                    padding: 9px;
+                    text-align: center;
+
+               }
+
+               figure img{
+                    width: 280px;
+                    height:160px;
+                    border: 1px solid #d6d6d6;}
+               }
+
+               figure video{
+                    width: 140px;
+                    height:160px;
+                    border: 1px solid #d6d6d6;}
+               }
+
+               figcaption {
+                    padding-left: 20px;
+                    background-repeat: no-repeat;
+               }
